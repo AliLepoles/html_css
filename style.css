@@ -1,0 +1,63 @@
+body{
+   font-size: 25px;
+}
+
+h1{
+  background: grey;
+  color: green;
+}
+
+  section p {
+    color: red /*!important*/;
+    }
+
+    section p:first-child{/*premier p*/
+      color: darkblue;
+    }
+
+  section  p:last-child{/*dernier p*/
+      color:black;
+    }
+
+     section p:nth-child(even){/*les p impairs*/
+      color:orange;
+    }
+    section p:nth-child(odd){/*les p pairs*/
+      color:lightgreen;
+    }
+
+  section p:nth-child(3),section p:nth-child(9){/*les p en position 3 et 9*/
+      color:blue;
+    }
+
+
+.zone1 {
+  color: pink;
+  }/*mettre un point pour désigner une classe*/
+
+  .line{
+    color:purple;
+  }
+
+  /*pour sélectionner un "id",on met un "#" avec la balise*/
+  #zone3:after/*ajouter un contenu après l'ID zone3*/
+  {
+    content:"rajouter après"
+  }
+#zone3:before{/* rajouter du contenu avant l'ID zone 3)*/
+content:"rajouter avant"
+  }
+
+ #zone3{
+    background: darkgreen;
+    color:beige;
+  }
+.zone4 span/*appliquer une mise en forme au contenu dans la balise span imbriquée dans la classe zone4*/{
+  color:yellow;
+  background:black;
+}
+li:nth-child(2){
+  color:#DB8CFF;
+  background:#53BDFF;
+
+}
