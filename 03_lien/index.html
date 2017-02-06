@@ -1,0 +1,86 @@
+<!--On peut naviguer de page en page ou de site en site très facilement avec les liens "hypertext"  -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css">
+        <title> Les liens</title>
+
+    </head>
+
+
+    <body>
+        <h1> Les différents liens d'une page html:navigation>/</h1>
+        <p>Les liens permettent de passer d'une page à une autre dans le même site ,vers un autre site comme d'autres actions</p>
+
+        <h2 id="interieur">lien intérieur sur une autre page du site</h2>
+        <p>la balise &lt;a> permert de créer un lien hypertext et l'attribut <em>href</em> permet de definir la destination du lien</p>
+        <a href="index2.html">Cliquez ici pour aller en page 2</a>
+        <p class="code"> &lt;a href="index2.html">Cliquez ici pour aller en page 2 &lt;/a></p>
+        <p><a href="#too"> Top</a></p>
+        <hr/>
+        <h2 id="onglet">Lien ouvrant un nouvel onglet</h2>
+        <p>Sans fermer l'onglet du site consulté,on va consulter un autre site en ouvrant un nouvel onglet</p>
+        <a href="index2.html" target="_blank">Page 2 dans un nouvel onglet</a>
+
+        <p class="code">&lt;a href="index2.html"target="_blank">Page 2 dans un nouvel onglet&lt;/a></p>
+        <p><a href="#top"> Top</a></p>
+        <hr/>
+        <h2 id="site">Lien vers un autre site</h2>
+        <p>l'attribut<em>href</em> permet de definir la destination du lien et l'attribut <em>title</em> affiche une info-bulle au survol de la souris</p>
+        <a href="https://github.com" title="Se rendre sur github">github</a>
+        <p class="code"> &lt;a href="https://github.com" title="se rendre sur github"&lt;/a></p>
+        <p><a href="#top">Top</a></p>
+        <hr/>
+
+            <h2 id="telecharger">Lien de telechargementd'un fichier</h2>
+            <p>Ce lien permet de proposer le telechargement d'un fichier ( attention à l'arborescence des répertoires si votre fichier n'est pas dans le même répertoire que le fichier index.html)
+            <a href="document.doc">Télécharger le fichier </a></p>
+            <p class="code">&lt;a href="document.doc">Télécharger le fichier&lt;/a></p>
+            <p><a href="#top">Top</a></p>
+
+            <hr/>
+
+            <h2 id="see">Lien de visualisation d'un fichier pdf </h2>
+            <p>ce lien ouvre un document PDF directement dans la page web ( votre navigateur)</p>
+            <a href="image.pdf">Afficher l'image</a>
+            <p class="code">&lt;a href="image.pdf">Afficher l'image&lt;/a></p>
+            <p><a href="#top">Top</a></p>
+            <hr/>
+
+        <h2 id="download">Lien de téléchargement d'un fichier PDF</h2>
+        <p>Ce lien dotté de l'attribut <em>dowload</em> propose le téléchargement d'un fichier</p>
+        <a href="image.pdf" download>Téléchargerl'image</a>
+        <p class="code">&lt;a href="image.pdf" download>Télécharger l'image &lt;/a></p>
+        <p><a href="#top">Top</a></p>
+        <hr/>
+
+        <h2  ></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
