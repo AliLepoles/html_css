@@ -33,3 +33,56 @@ nav a:hover{/*tous les liens au survol de la souris dans le nav*/
     background: #fda500;/*couleur de fond*/
     color:#000;/*couleur du texte*/
 }
+
+/* 1er container*/
+.container{
+    width: 70%;
+    margin: 4% auto 2% auto;
+    background: beige;
+    padding: 2em;
+
+
+}
+
+mark{
+    background: #ffd8d8;
+}
+
+/*2éme container*/
+.container1{
+    width: 70%;
+    margin: 2% auto;/* contraction pour 2% auto 2% auto*/
+    background: #f8e9fd;
+    padding: 2%;
+
+}
+
+/*containers 3 et 4 imbriqués dans le container*/
+.container2,.container3{
+    width: 44.5%;
+    background: beige;
+    padding: 2%;
+    float:left;
+
+}
+
+.container2{
+    margin-left: 1.5%;
+
+}
+.container3{
+    margin-left: 1.5%;
+}
+
+/*5e container*/
+.container4{
+    margin-top: 2em;
+
+}
+.clear{
+    clear: both;
+}
+
+section :hover{
+    background-color: red;
+}
