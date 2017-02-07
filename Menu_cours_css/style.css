@@ -1,0 +1,35 @@
+*/*sélectionne tous les éléments de html*/{
+    font-family: sans-serif;
+    /*police d'écriture*/
+
+}
+
+nav{
+    background: #000;
+    color: #fff;
+    padding: 0 0.5em;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 0; /*position à partir du haut de l'écran*/
+    left:0;/*position à partir de la gauche de l'écran*/
+    margin: 0;
+}
+
+nav a{/*tous les liens à l'intérieur de la balise nav*/
+    float: left;
+    text-decoration: none;/*pas d'héritage avec effet souligné comme c'est le standard pour les liens sous tous les navigateurs*/
+    color: #fff;/*couleur du texte*/
+    background: #000;/*couleur du fond*/
+    height: 2.8em;/*hauteur de la nav*/
+    line-height: 2.7em;/*interligne*/
+    padding: 0em 2em;/*marge intérieures - ol les fait dans le sens des aiguillesd'une montre par convention (haut,droite,bas,gauche)*/
+    font-size: 1.2em;
+    transition: 2s/*temps de transition lors du hover (survol de la souris): ici 2 secondes*/
+
+}
+
+nav a:hover{/*tous les liens au survol de la souris dans le nav*/
+    background: #fda500;/*couleur de fond*/
+    color:#000;/*couleur du texte*/
+}

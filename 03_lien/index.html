@@ -1,7 +1,7 @@
 <!--On peut naviguer de page en page ou de site en site très facilement avec les liens "hypertext"  -->
 
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -15,6 +15,18 @@
     <body>
         <h1> Les différents liens d'une page html:navigation>/</h1>
         <p>Les liens permettent de passer d'une page à une autre dans le même site ,vers un autre site comme d'autres actions</p>
+
+         <h2 id="top"> Les ancres: liens à l'intérieur de la <mark>même</mark> page du site</h2>
+         <p>Les ancres sont particulièrement utiles sur les sites web intégrant beaucoup de contenu<(longueur de page)</p>
+         <p><a href="#intérieur">Lien intérieur sur une autre page du site</a></p>
+         <p><a href="#onglet">Lien vers un autre site</a></p>
+         <p><a href="#see">Lien de visualisation d'un fichier PDF</a></p>
+         <p><a href="#telecharger">Lien de téléchargementd'un fichier</a></p>
+         <p><a href="#site">Lien vers un autre site web</a></p>
+         <p><a href="#download">Lien de téléchargement d'un fichier PDF</a></p>
+         <p><a href="#imageclick">Lien sur une image</a></p>
+         <p><a href="#print">Lien permettant d'imprimer la page en cours</a></p>
+
 
         <h2 id="interieur">lien intérieur sur une autre page du site</h2>
         <p>la balise &lt;a> permert de créer un lien hypertext et l'attribut <em>href</em> permet de definir la destination du lien</p>
@@ -51,14 +63,32 @@
             <p><a href="#top">Top</a></p>
             <hr/>
 
-        <h2 id="download">Lien de téléchargement d'un fichier PDF</h2>
-        <p>Ce lien dotté de l'attribut <em>dowload</em> propose le téléchargement d'un fichier</p>
-        <a href="image.pdf" download>Téléchargerl'image</a>
-        <p class="code">&lt;a href="image.pdf" download>Télécharger l'image &lt;/a></p>
-        <p><a href="#top">Top</a></p>
-        <hr/>
+            <h2 id="download">Lien de téléchargement d'un fichier PDF</h2>
+            <p>Ce lien dotté de l'attribut <em>dowload</em> propose le téléchargement d'un fichier</p>
+            <a href="image.pdf" download>Téléchargerl'image</a>
+            <p class="code">&lt;a href="image.pdf" download>Télécharger l'image &lt;/a></p>
+            <p><a href="#top">Top</a></p>
+            <hr/>
 
-        <h2  ></h2>
+            <h2 id="imageclic"  >Lien sur une image </h2>
+            <p>Ce lien ouvreune autre  url en cliquant sur une image</p>
+        <a href="https://github.com" target="_blank"><img src="image.jpg" alt="un lion />
+        <p class="code">&lt;a href="https://github.com>"&lt;img src="image.jpg" alt="un lion">&lt;/a></p>
+        <p><a href="#top">Top</a></p>
+
+
+           <hr/>
+           <h2 id="print">Liens permettant d'imprimer la page en cours</h2>
+           <a href="" onclick="window.print()">Imprimer la page </a>
+           <p class ="code">&lt;a href="" onclick="window.print()">Imprimer la page &lt;/a></p>
+           <p><a href="#top">Top</a></p>
+
+           <hr/>
+
+
+
+
+
 
 
 
