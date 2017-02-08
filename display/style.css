@@ -1,0 +1,14 @@
+h1,h3,div,a,p,span,aside,section{
+    text-align: center;
+    border: 1px solid;  /*si il n' y a pas d'indication de couleur le noir sera choisi par défaut */
+
+}
+a{
+    display: block;
+/*DISPLAY permet de transformer un élément Inline en élément block*/
+}
+
+h1{
+    display: inline;
+/*DISPLAY permet de transformer un élément Block en élément Inline*/
+}
