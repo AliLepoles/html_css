@@ -1,0 +1,31 @@
+.c1,.c2,.c3{
+    height: 10em;
+    width: 10em;
+    border: 8.2px solid;
+    /*float: left;*/
+    text-align: center;
+    display:inline-block;
+    border-radius: 50%;/*coins arrondis*/
+    border-color: white;
+    color: transparent;
+}
+
+.c1{
+    background-color: lightgreen;
+}
+
+.c2{
+    background-color:orange;
+
+}
+
+
+
+
+/*.c3{
+    background-color: white;
+    display: inline-block;
+
+}*/
+.clear{
+    clear: both;

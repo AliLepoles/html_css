@@ -1,0 +1,68 @@
+.c1,.c2,.c3,.c4,.c5,#red{
+    height: 10em;
+    width: 10em;
+    border: 2px solid;
+    /*float: left;*/
+    margin-left: ;
+    display:inline-block;
+    /*border-radius: 50%;/*coins arrondis*/
+    border-color:black;
+    color: transparent;
+    margin:2px;
+}
+
+.c1{
+    background-color:#19dee5;
+    border-bottom-left-radius: 5%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+}
+
+.c2{
+    background-color:#336628;
+    border-bottom-left-radius: 18%;
+    border-bottom-right-radius: 18%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+
+}
+
+.c3{
+    background-color: #45efae;
+    border-radius: 50%;
+
+
+}
+
+.c4{
+    background-color: pink;
+    border-top-right-radius: 45%;
+    border-bottom-left-radius: 45%;
+
+
+}
+
+.c5{
+    background-color: transparent;
+    border-color: transparent;
+}
+#red{
+    background-color: red;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+
+}
+.c1,.c2,.c3,.c4,.c5{
+    margin-left: 10px;
+}
+
+
+
+/*.c3{
+    background-color: white;
+    display: inline-block;
+
+}*/
+.clear{
+    clear: both;

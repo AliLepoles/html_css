@@ -1,0 +1,23 @@
+.c1,.c2{
+    height: 10em;
+    width: 10em;
+    border: 8.2px solid;
+    /*float: left;*/
+    text-align: center;
+    display:inline-block;
+    border-radius: 20%;/*coins arrondis*/
+    border-color: white;
+}
+
+.c1{
+    background-color: #7a43e0;
+}
+
+.c2{
+    background-color: #43e07a;
+
+}
+
+.clear{
+    clear: both;
+}
