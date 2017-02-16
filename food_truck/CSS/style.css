@@ -1,0 +1,23 @@
+#logo{
+margin-left:50em;
+height: 250px;
+margin-right: auto;
+
+}
+*#menu{
+margin-top: 2em;
+margin-left: 1em;
+height: 500px;
+}
+
+.plat li{
+display: block;
+text-decoration: none;
+
+}
+
+section{
+background-color:bisque;
+display: block;
+padding: 0;
+}
