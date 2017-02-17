@@ -1,23 +1,72 @@
-#logo{
+
+/*typos*/
+@import url('https://fonts.googleapis.com/css?family=La+Belle+Aurore');
+
+
+/*Pour appeler: font-family:xxxx"
+/*Style des éléments du header*/
+ul li{
+    list-style-type: none;
+}
+.imghead{
+height: 210px;
+background-size:contain;
+background-repeat: no-repeat;
+/*background-position: center;*/
+margin-bottom: 2.5%;
+background-position: center;
+}
+
+.imghead p{
+    margin-top: 15%;
+    color: white;
+    background-color: rgba(0,0, 0, 0.5);
+    padding: 10px 5px;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+}
+
+
+#logo-L{
+background-image: url("../img/elpaso-logo_glow.png");
+}
+
+#titre{
+background-image: url("../img/logo.png");
+}
+/*#logo{
 margin-left:50em;
 height: 250px;
 margin-right: auto;
+background-image: url("../img/elpaso-logo_glow.png");
+}*/
 
-}
-*#menu{
-margin-top: 2em;
-margin-left: 1em;
-height: 500px;
-}
-
-.plat li{
-display: block;
-text-decoration: none;
-
+#ardoise{
+background-image:url("../img/tableau.png");
+color: white;
+padding: 4.5% 0;
+background-size: cover;
+background-position-y:bottom;
 }
 
-section{
-background-color:bisque;
-display: block;
-padding: 0;
+#ardoise span{
+float: right;
+color: yellow;
+padding-right: 10%;
+}
+
+#ardoise li:before{
+content:"♣";
+padding-right:2%;
+}
+
+.texte{
+font-family: 'La Belle Aurore', cursive;
+font-size:4.5rem;
+}
+
+
+#descriptif{
+padding:9%;
 }
